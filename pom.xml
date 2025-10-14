@@ -44,6 +44,7 @@
 		<url>http://repo1.maven.org/maven2</url>
 	    </pluginRepository>
 	</pluginRepositories>
+	<build>
 	<plugins>
 		<plugin>
     		<groupId>org.apache.maven.plugins</groupId>
@@ -51,6 +52,7 @@
    			<version>3.3.3</version> <!-- latest stable -->
 		</plugin>
 	</plugins>
+	</build>
 
 	
 </project>
